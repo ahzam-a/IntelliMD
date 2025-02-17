@@ -1,6 +1,6 @@
-# 🚀 IntelliMD: IntelliMD: A Misbehaviour Detection Framework for Cooperative Intelligent Transport Systems
+# 🚀 IntelliMD: A Misbehaviour Detection Framework for Cooperative Intelligent Transport Systems
 
-Welcome to the **IntelliMD: IntelliMD: A Misbehaviour Detection Framework for Cooperative Intelligent Transport Systems** repository! This project focuses on the detection and mitigation of misbehaviours in **Cooperative Intelligent Transport Systems (C-ITS)** using a multi-layered framework. Our approach includes **Local, Cooperative, Infrastructure, and Global Intelligence** to identify and respond to malicious activities in vehicular networks.
+Welcome to the **IntelliMD: A Misbehaviour Detection Framework for Cooperative Intelligent Transport Systems** repository! This project focuses on the detection and mitigation of misbehaviours in **Cooperative Intelligent Transport Systems (C-ITS)** using a multi-layered framework. Our approach includes **Local, Cooperative, Infrastructure, and Global Intelligence** to identify and respond to malicious activities in vehicular networks.
 
 ## 🔍 About the Research
 
@@ -23,7 +23,7 @@ This repository contains Python implementations of the different IntelliMD compo
 | `file1.py` | **Local-IntelliMD** - Performs plausibility and consistency checks to detect anomalies at the vehicle level. |
 | `file2.py` | **Cooperative-IntelliMD** - Utilizes cooperative data exchange for enhanced anomaly detection. |
 | `file3.py` | **Infra-IntelliMD** - Leverages infrastructure-based validation using **RSUs** and edge computing. |
-| `file4.py` | **Global-IntelliMD** - Implements large-scale misbehavior detection across multiple infrastructure nodes. |
+| `file4.py` | **Global-IntelliMD** - Implements large-scale misbehaviour detection across multiple infrastructure nodes. |
 | `feature_engineering.py` | Extracts and transforms relevant features for machine learning-based anomaly detection. |
 | `real_time_detection.py` | Implements **incremental learning** for real-time misbehavior classification. |
 | `performance_evaluation.py` | Evaluates the detection mechanisms using **accuracy, precision, recall, MCC, Kappa**, and **runtime metrics**. |
@@ -33,7 +33,7 @@ This repository contains Python implementations of the different IntelliMD compo
 
 ## 📜 Publications and Citations  
 
-This research has led to **multiple publications** in peer-reviewed **journals and conferences** related to **C-ITS security and misbehavior detection**. If you use any of the IntelliMD modules, implementations, or ideas in your research or projects, please consider **citing the relevant papers**.  
+This research has led to **multiple publications** in peer-reviewed **journals and conferences** related to **C-ITS security and misbehaviour detection**. If you use any of the IntelliMD modules, implementations, or ideas in your research or projects, please consider **citing the relevant papers**.  
 
 ### 🔗 **Journal Articles**  
 
@@ -62,4 +62,14 @@ This research has led to **multiple publications** in peer-reviewed **journals a
 
 ---
 📢 Kindly cite the relevant paper(s) if any module is used or adapted from this work.
+
+
+📜 License
+This project is licensed under the MIT License. You are free to use, modify, and distribute the code, provided that proper credit is given to the authors.
+
+⭐ Acknowledgments
+We thank the research community for their contributions to C-ITS security and anomaly detection. This project builds upon existing work and extends misbehaviour detection methodologies with a novel multi-tiered detection framework.
+
+If you find this work useful, please consider starring ⭐ the repository and citing our papers!
+
 
