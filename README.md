@@ -63,13 +63,10 @@ This research has led to **multiple publications** in peer-reviewed **journals a
 ---
 📢 Kindly cite the relevant paper(s) if any module is used or adapted from this work.
 
+---
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute the code, provided that proper credit is given to the authors.
 
-⭐ Acknowledgments
-We thank the research community for their contributions to C-ITS security and anomaly detection. This project builds upon existing work and extends misbehaviour detection methodologies with a novel multi-tiered detection framework.
-
-If you find this work useful, please consider starring ⭐ the repository and citing our papers!
 
 
