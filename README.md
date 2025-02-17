@@ -1,20 +1,20 @@
-# 🚀 Misbehavior Detection & Mitigation in C-ITS
+# 🚀 IntelliMD: IntelliMD: A Misbehaviour Detection Framework for Cooperative Intelligent Transport Systems
 
-Welcome to the **Misbehavior Detection & Mitigation** repository! This project focuses on the detection and mitigation of misbehaviors in **Cooperative Intelligent Transport Systems (C-ITS)** using a multi-layered framework. Our approach includes **Local, Cooperative, Infrastructure, and Global Intelligence** to identify and respond to malicious activities in vehicular networks.
+Welcome to the **IntelliMD: IntelliMD: A Misbehaviour Detection Framework for Cooperative Intelligent Transport Systems** repository! This project focuses on the detection and mitigation of misbehaviours in **Cooperative Intelligent Transport Systems (C-ITS)** using a multi-layered framework. Our approach includes **Local, Cooperative, Infrastructure, and Global Intelligence** to identify and respond to malicious activities in vehicular networks.
 
 ## 🔍 About the Research
 
-C-ITS is a transformative technology that enhances road safety and traffic efficiency through vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communications. However, the **security and trustworthiness** of these communications are critical challenges due to potential attacks such as **false data injection, Sybil attacks, message replay, and denial-of-service (DoS) attacks**.
+C-ITS is a transformative technology that enhances road safety and traffic efficiency through vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communications. However, the **security and trustworthiness** of these communications are critical challenges due to potential attacks such as **false data injection, message replay, and denial-of-service (DoS) attacks**.
 
-This project introduces **IntelliMD**, a **multi-layered detection and mitigation framework**, ensuring **adaptive, real-time response** to misbehaviors. The framework consists of the following components:
+This project introduces **IntelliMD**, a **multi-layered detection and mitigation framework**, ensuring **adaptive, real-time response** to misbehaviours. The framework consists of the following components:
 - **Local-IntelliMD**: Detects anomalies at the individual vehicle level.
-- **Cooperative-IntelliMD**: Aggregates reports from nearby vehicles for collaborative misbehavior detection.
+- **Cooperative-IntelliMD**: Aggregates reports from nearby vehicles for collaborative misbehaviour detection.
 - **Infra-IntelliMD**: Uses roadside infrastructure to validate and mitigate anomalies.
-- **Global-IntelliMD**: Analyzes large-scale misbehavior patterns across the entire network.
+- **Global-IntelliMD**: Analyzes and mitigates large-scale misbehaviour patterns across the entire network.
 
 ## 📂 Project Structure
 
-This repository contains Python implementations of the different IntelliMD components, along with utility scripts for **real-time classification, feature engineering, and performance evaluation**.
+This repository contains Python implementations of the different IntelliMD components in subcomponents for the ease of replicating/integrating individual modules.
 
 ### 🔥 Core Components
 
