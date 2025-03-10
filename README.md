@@ -20,13 +20,12 @@ This repository contains Python implementations of the different IntelliMD compo
 
 | File | Description |
 |------|------------|
-| `file1.py` | **Local-IntelliMD** - Performs plausibility and consistency checks to detect anomalies at the vehicle level. |
-| `file2.py` | **Cooperative-IntelliMD** - Utilizes cooperative data exchange for enhanced anomaly detection. |
-| `file3.py` | **Infra-IntelliMD** - Leverages infrastructure-based validation using **RSUs** and edge computing. |
-| `file4.py` | **Global-IntelliMD** - Implements large-scale misbehaviour detection across multiple infrastructure nodes. |
-| `feature_engineering.py` | Extracts and transforms relevant features for machine learning-based anomaly detection. |
-| `real_time_detection.py` | Implements **incremental learning** for real-time misbehavior classification. |
-| `performance_evaluation.py` | Evaluates the detection mechanisms using **accuracy, precision, recall, MCC, Kappa**, and **runtime metrics**. |
+| `median_filter.py` | Applies a median filter to remove noise from incoming data. |
+| `message_checks.py` | Performs plausibility, consistency, and supplementary checks on received messages. |
+| `birch_lof.py` | Uses BIRCH-LOF clustering to detect anomalous messages. |
+| `collaborative_monitoring.py` | Implements collaborative monitoring with adaptive thresholding for Coop-IntelliMD. |
+| `rf_adwin_infra.py` | Uses RF-ADWIN at the RSU level to classify misbehaviors. |
+| `rf_adwin_global_mitigation.py` | Applies RF-ADWIN to verify RSU reports and mitigate misbehaviors in Global-IntelliMD. |
 
 
 ---
